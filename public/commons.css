@@ -1,0 +1,16 @@
+/* Colors */
+.bg-primary {
+  background-color: #579c87;
+}
+.txt-primary {
+  color: #fecc43;
+}
+
+/* Global */
+main {
+  min-height: 100vh;
+}
+nav {
+  text-align: center;
+  line-height: inherit;
+}

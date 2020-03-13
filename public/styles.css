@@ -1,0 +1,32 @@
+.menu {
+  box-shadow: 0 0 6px 1px #00000047;
+}
+#menu-list {
+  padding: 20px;
+}
+#menu-list > a {
+  display: contents;
+}
+#soon {
+  border: none;
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  border-radius: 13px;
+}
+article{
+  background-position: center;
+  background-size: cover;
+}
+#note-enchantee {
+  background-image: url("menus/note_enchantee/thumbnail.png");
+}
+#chic-francaise {
+  background-image: url("menus/chic_francaise/thumbnail.png");
+}
+#delice-papille {
+  background-image: url("menus/delice_papille/thumbnail.png");
+}
+#palette-gout {
+  background-image: url("menus/palette_gout/thumbnail.png");
+}
