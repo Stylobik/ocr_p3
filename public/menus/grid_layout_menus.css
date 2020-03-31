@@ -6,21 +6,14 @@ body {
 
 /* Grid layout Mobile-First */
 main {
-  display: grid;
-  grid-template-rows: 9vh auto 7vh;
-  grid-template-columns: 100vw;
-  gap: 2em 0;
-  grid-template-areas:
-    "nav"
-    "menu"
-    "footer";
+  display: flex;
 }
 nav {
-  grid-area: nav;
+
 }
 footer {
-  grid-area: footer;
+
 }
 #menu {
-  grid-area: menu;
+
 }

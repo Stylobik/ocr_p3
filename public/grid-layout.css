@@ -17,24 +17,26 @@ main {
   "footer";
 }
 #menu-list {
-  grid-area: menulist;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 40% 40%;
-  justify-content: center;
-  gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-nav {
-  grid-area: nav;
-}
-footer {
-  grid-area: footer;
-}
-article {
-  grid-column:1fr ;
-}
-#soon {
-  grid-area: soon;
+.menu{
+  flex-basis: 80%;
 }
 
 /* Responsive system (breakpoints) */
+
+@media only screen and (min-width: 500px) {
+  /* For tablets: */
+  .menu {
+    flex-basis: 40%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .menu {
+    flex-basis: 20%;
+  }
+}

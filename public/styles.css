@@ -1,11 +1,12 @@
 .menu {
   box-shadow: 0 0 6px 1px #00000047;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin:20px 0;
 }
 #menu-list {
   padding: 20px;
-}
-#menu-list > a {
-  display: contents;
 }
 #soon {
   border: none;
@@ -13,10 +14,6 @@
   margin: auto;
   height: 100%;
   border-radius: 13px;
-}
-article{
-  background-position: center;
-  background-size: cover;
 }
 #note-enchantee {
   background-image: url("menus/note_enchantee/thumbnail.png");
