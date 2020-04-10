@@ -14,3 +14,22 @@ nav {
   text-align: center;
   line-height: inherit;
 }
+main {
+  display: grid;
+  grid-template-rows: 9vh auto 7vh 7vh;
+  grid-template-columns: 100vw;
+  gap: 2em 0;
+  grid-template-areas: 
+  "nav"
+  "menulist"
+  "soon"
+  "footer";
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 2%;
+  font-size: large;
+}
