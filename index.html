@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/grid-layout.css">
     <link rel="stylesheet" href="public/commons.css">
     <link rel="stylesheet" href="public/styles.css">
-    <link rel="stylesheet" href="public/anims.css">
     <title>ohmyfood</title>
 </head>
 <body>
-    <main>
-        <nav class="bg-primary txt-primary"><h1>ohmyfood</h1></nav>
+    <nav class="bg-primary txt-primary row"><h1>ohmyfood</h1></nav>
+    <main class="row">
         <div id="menu-list">
-            <a class="menu" href="./public/menus/note_enchantee/index.html" id="note-enchantee"><img src="./public/menus/note_enchantee/thumbnail.png" alt=""></a>
-            <a class="menu" href="./public/menus/chic_francaise/index.html" id="chic-francaise"><img src="./public/menus/chic_francaise/thumbnail.png" alt=""></a>
-            <a class="menu" href="./public/menus/delice_papille/index.html" id="delice-papille"><img src="./public/menus/delice_papille/thumbnail.png" alt=""></a>
-            <a class="menu" href="./public/menus/palette_gout/index.html" id="palette-gout"><img src="./public/menus/palette_gout/thumbnail.png" alt=""></a>
+            <a class="menu has-shadow" href="./public/menus/note_enchantee/index.html" id="note-enchantee"><img src="./public/menus/note_enchantee/thumbnail.png" alt=""></a>
+            <a class="menu has-shadow" href="./public/menus/chic_francaise/index.html" id="chic-francaise"><img src="./public/menus/chic_francaise/thumbnail.png" alt=""></a>
+            <a class="menu has-shadow" href="./public/menus/delice_papille/index.html" id="delice-papille"><img src="./public/menus/delice_papille/thumbnail.png" alt=""></a>
+            <a class="menu has-shadow" href="./public/menus/palette_gout/index.html" id="palette-gout"><img src="./public/menus/palette_gout/thumbnail.png" alt=""></a>
         </div>
-        <button id="soon" class="bg-primary txt-primary"><p>Prochainement</p> <span class="test"></span><span class="test a"></span><span class="test b"></span></button>
-        <footer class="bg-primary txt-primary">
-            <div id="mentions">mentions légales</div>
-            <div id="contact">contactez-nous</div>
-        </footer>
+        <button id="soon" class="bg-primary txt-primary">
+            <p>Prochainement</p> 
+            <div id="anim">
+                <span class="point"></span>
+                <span class="point a"></span>
+                <span class="point b"></span>
+            </div>
+        </button>
     </main>
+    <footer class="bg-primary txt-primary row">
+        <div id="mentions">mentions légales</div>
+        <div id="contact">contactez-nous</div>
+    </footer>
 </body>
 </html>

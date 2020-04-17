@@ -1,3 +1,15 @@
+/* Common css for all pages */
+
+/* Fonts */
+@font-face {
+  font-family: "Roboto Black";
+  src: url("font/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("font/Roboto-Regular.ttf");
+}
+
 /* Colors */
 .bg-primary {
   background-color: #579c87;
@@ -7,29 +19,57 @@
 }
 
 /* Global */
-main {
-  min-height: 100vh;
+body{
+  font-family: "Roboto";
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+.row{
+  flex-basis: 100%;
 }
 nav {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: inherit;
+  font-family: "Roboto Black";
+  text-transform: lowercase;
+  font-size: 25px;
 }
-main {
-  display: grid;
-  grid-template-rows: 9vh auto 7vh 7vh;
-  grid-template-columns: 100vw;
-  gap: 2em 0;
-  grid-template-areas: 
-  "nav"
-  "menulist"
-  "soon"
-  "footer";
-}
-
 footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0 2%;
+  width: 100%;
   font-size: large;
+  height: 7%;
+  align-self: flex-end;
+  text-transform: capitalize;
+  padding: 0 2%;
+}
+p{
+  margin:4px 0;
+}
+.has-shadow{
+  box-shadow: 0 0 6px 1px #00000047;
+}
+
+/* Anims */
+footer div {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+footer div:hover {
+  animation: none;
+}
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(5deg); }
+ 95% { transform: rotate(-5deg); }
+100% { transform: rotate(0deg); }
 }

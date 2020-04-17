@@ -3,34 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../grid_layout_menus.css">
-    <link rel="stylesheet" href="../../commons.css">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_NE.css" />
     <title>Menu - La Note Enchantée</title>
   </head>
   <body>
-    <main>
-      <nav class="bg-primary txt-primary"><h1>ohmyfood</h1></nav>
-      <div id="menu">
+    <nav class="bg-primary txt-primary row"><h1>ohmyfood</h1></nav>
+    <main class="row">
         <h1>La note enchantée</h1>
-        <article>
-            <img src="logo.jpg" alt="">
+        <article id="menu" class="has-shadow">
+          <div id="title">
+            <img src="logo.jpg" alt="" />
             <h1>La note enchantée</h1>
-            <section>
-              <h1>Prélude</h1>
+          </div>
+          <section>
+            <span><div class="sep"></div><h1 class="category">Prélude</h1><div class="sep"></div></span>
+            <span>
               <p>Ravioles de foie gras accompagnés de leur crème à la truffe</p>
-              <p>98 €</p>
+              <p><strong>98 €</strong></p>
+            </span>
+            <span>
               <p>Caviar osciètre sur blini à la farine de blé noir</p>
-              <p>115 €</p>
-            </section>
-            <section>
-            </section>
-            <section></section>
-            <footer></footer>
+              <p><strong>115 €</strong></p>  
+            </span>
+            <span>
+              <p>Homard et espuma de potiron mariné aux zests d'orange</p>
+              <p><strong>89 €</strong></p>
+            </span>
+            <span>
+              <p>Fois gras de canard cuit entier, confiture de figue et pain toasté</p>
+              <p><strong>105 €</strong></p>
+            </span>          
+          </section>
+          <section>
+            <span><div class="sep"></div><h1 class="category">Point d'orgue</h1><div class="sep"></div></span>
+            <span>
+              <p>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</p> 
+              <p><strong>102 €</strong></p>
+            </span>
+            <span>
+              <p>Langoustine poêlée, purée de patate douce</p>
+              <p><strong>205 €</strong></p>   
+            </span>
+            <span>
+              <p>Mijotée de queue de boeuf et riz sauvage aux zests de citron</p>
+              <p><strong>169 €</strong></p> 
+            </span>
+          </section>
+          <section>
+            <span><div class="sep"></div><h1 class="category">Mouvement final</h1><div class="sep"></div></span>
+            <span><p>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</p></span> 
+            <span><p>Baba au rhum revisité avec son coulis de citron</p></span>
+            <span><p>Tarte au citron meringuée destructurée</p></span>
+          </section>
+          <div id="foot">
+            <img src="logo.jpg" alt="" />
+            <h1>La note enchantée</h1>
+          </div>
         </article>
-      </div>
-      <footer class="bg-primary txt-primary">foot</footer>
-
     </main>
+    <footer class="bg-primary txt-primary row">
+      <div id="mentions">mentions légales</div>
+      <div id="contact">contactez-nous</div>
+    </footer>
   </body>
 </html>

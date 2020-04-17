@@ -1,0 +1,43 @@
+/* Common css for menu pages only (./menus/) */
+
+/* Grid layout Mobile-First */
+main h1:first-child{
+  text-align: center;
+}
+#menu {
+  background-color: #fee1dd;
+  margin: auto;
+  max-width: 660px;
+  padding: 2%;
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#menu section {
+  padding: 0 5%;
+}
+#menu section span {
+  display: flex;
+  justify-content: space-between;
+}
+#menu section span:first-child {
+  justify-content: space-evenly;
+  align-items: center;
+}
+#title,
+#foot {
+  text-align: center;
+}
+#foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#foot img {
+  max-width: 5%;
+}
+.strong {
+  font-weight: bold;
+}
+
