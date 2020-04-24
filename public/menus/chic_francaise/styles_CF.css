@@ -32,7 +32,7 @@
   background: url(sep3.png) no-repeat;
 }
 section .sep:last-child{
-  transform: rotate(180deg);
+  transform: scaleX(-1);
 }
 #menu{
   justify-content: space-evenly;

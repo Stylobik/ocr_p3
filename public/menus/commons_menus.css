@@ -39,4 +39,6 @@ main h1:first-child{
 .strong {
   font-weight: bold;
 }
-
+.category, p {
+  text-align: center;
+}
