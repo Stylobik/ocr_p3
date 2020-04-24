@@ -1,5 +1,2 @@
-# Project Title
-
-Formation Developpeur web OpenClassroom - Projet n°3
-
-
+# ocr-p2
+Projet 2 OpenClassrooms

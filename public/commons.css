@@ -9,13 +9,16 @@
   font-family: "Roboto";
   src: url("font/Roboto-Regular.ttf");
 }
-
+a{
+  text-decoration: none;
+  color: unset;
+}
 /* Colors */
 .bg-primary {
   background-color: #579c87;
 }
 .txt-primary {
-  color: #fecc43;
+  color: #fecc43 !important;
 }
 
 /* Global */

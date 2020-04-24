@@ -8,11 +8,34 @@
   font-family: "Tillana";
   src: url("../../font/Tillana-Regular.ttf");
 }
+.txt-secondary{
+  color:#C67412;
+}
+.txt-third{
+  color:#A56799;
+}
+.txt-fourth{
+  color:#6E4CCC;
+}
 .sep {
-  background: url(sep.jpg) no-repeat;
-  height: 10px;
+  height: 25px;
   width: 25%;
-  background-size: contain;
+  background-size: contain !important;
+}
+.sep1{
+  background: url(sep1.png) no-repeat;
+}
+.sep2{
+  background: url(sep2.png) no-repeat;
+}
+.sep3{
+  background: url(sep3.png) no-repeat;
+}
+section .sep:last-child{
+  transform: rotate(180deg);
+}
+#menu{
+  justify-content: space-evenly;
 }
 #title,
 #foot {
@@ -25,11 +48,6 @@
 .category,
 p {
   font-family: "Tillana";
-}
-article {
-  color: #3d1319;
-  background-color: #fee1dd;
-
 }
 #foot {
   margin-top: 10px;

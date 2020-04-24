@@ -1,0 +1,69 @@
+@import url("../../commons.css");
+@import url("../commons_menus.css");
+@font-face {
+  font-family: "DancingScript";
+  src: url("../../font/DancingScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Kalam";
+  src: url("../../font/Kalam-Regular.ttf");
+}
+.txt-secondary{
+  color: black;
+}
+.txt-third{
+  color:#EDEFEF;
+}
+.sep {
+  height: 25px;
+  width: 25%;
+  background-size: contain !important;
+}
+.sep1{
+  background: url(sep1.png) no-repeat;
+}
+.sep2{
+  background: url(sep2.png) no-repeat;
+}
+.sep3{
+  background: url(sep3.png) no-repeat;
+}
+section .sep:last-child{
+  transform: scaleX(-1);
+}
+#menu{
+  justify-content: space-evenly;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(237,239,239,1) 98%);
+}
+#title,
+#foot {
+  font-family: "DancingScript";
+}
+#title h1 {
+  font-size: 2.5em;
+  margin: 0;
+  background: linear-gradient(to right, #0228DD 0%, #229DF9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.category,
+p {
+  font-family: "Kalam";
+}
+#foot {
+  margin-top: 10px;
+}
+
+/* Anims */
+.category:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease;
+  background-color: #3d1319;
+}
+.category:hover:after {
+  width: 100%;
+}

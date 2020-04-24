@@ -5,14 +5,13 @@ main h1:first-child{
   text-align: center;
 }
 #menu {
-  background-color: #fee1dd;
   margin: auto;
   max-width: 660px;
   padding: 2%;
   display: flex;
   min-height: 70vh;
   flex-direction: column;
-  justify-content: space-between;
+  line-height: 2;
 }
 #menu section {
   padding: 0 5%;

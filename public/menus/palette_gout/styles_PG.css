@@ -1,0 +1,66 @@
+@import url("../../commons.css");
+@import url("../commons_menus.css");
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("../../font/KaushanScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Tillana";
+  src: url("../../font/Tillana-Regular.ttf");
+}
+.txt-secondary{
+  color:black;
+}
+#menu{
+  background-color: #fdfffd;
+}
+.sep {
+  height: 25px;
+  width: 25%;
+  background-size: contain !important;
+}
+.sep1{
+  background: url(sep1.png) no-repeat;
+}
+section .sep:last-child{
+  transform: scaleX(-1);
+}
+#menu{
+  justify-content: space-evenly;
+}
+#title,
+#foot {
+  font-family: "Kaushan Script";
+}
+#title h1 {
+  font-size: 2.5em;
+  margin: 0;
+  background: linear-gradient(to right, rgb(37, 102, 0) 0%, rgb(60, 233, 74) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#title h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+.category,
+p {
+  font-family: "Tillana";
+}
+#foot {
+  margin-top: 10px;
+}
+
+/* Anims */
+.category:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease;
+  background-color: #3d1319;
+}
+.category:hover:after {
+  width: 100%;
+}
